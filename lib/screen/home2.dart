@@ -71,6 +71,9 @@ class _HomeScreen2State extends State<HomeScreen2> {
         nat: e['nat'],
         phone: e['phone'],
         name: e['name'],
+        dob: e[''],
+        location: e[''],
+        picture: e[''],
       );
     }).toList();
     setState(() {
